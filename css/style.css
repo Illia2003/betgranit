@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Robotolight.woff2"), url("../fonts/Robotolight.woff");
+  font-display: swap;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: content-box;
+}
+
+body{
+  min-width: 320px;
+  background-color: #EDEDED;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 300px;
+  font-style: normal;
+  line-height: 154%;
+}
+
+.container{
+  max-width: 1200px;
+  margin:0px auto;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  list-style: none;
+}
+
+.header__wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
